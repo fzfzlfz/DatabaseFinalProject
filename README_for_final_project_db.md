@@ -68,6 +68,8 @@ link：https://github.com/fzfzlfz/Backend.git
   
 
 `Machine Learning`:  name is "person_model.sav"
+  Required packages: numpy, sklearn, pandas, sodapy, pickle
+  Python version: 3.8.8
 
  With the dataset Motor Vehicle Collisions – Person from NYC OpenData (src: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Person/f55k-p6yu), We train a MLPClassifier model to predict the risk of vehicle collision of the person based on sex and age. For sex, we label Female for number 0 and male for number 1. We count the number of collisions of each age-sex group and label them 1-5 based on the number. From 1 to 5, the risk of collision increases.
  The dataset is updated daily, and our system will rerun the training process every week. It will always get the newest 100000 data to train the model.
