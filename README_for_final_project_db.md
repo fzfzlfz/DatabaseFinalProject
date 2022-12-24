@@ -6,7 +6,11 @@ The client will enter our website, and enter their personal information like age
 
 `Frontend`: React + Javascript
 
+link：https://github.com/fzfzlfz/Frontend.git
+
 `BackEnd`: Express
+
+link：https://github.com/fzfzlfz/Backend.git
 
 - `app.mjs` -- file which handle API
 - `person_model.sav` + `predict_person.py` + `train_person.py` -- Machine Learning
